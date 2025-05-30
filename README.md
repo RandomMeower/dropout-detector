@@ -86,6 +86,10 @@ Ikuti langkah-langkah ini untuk menjalankan prototipe system machine learning (p
 
     * **Akses Publik (Online):** Anda juga dapat mengakses prototipe ini melalui tautan publik: `https://randommeower-dropout-detector-app-lqd5r4.streamlit.app/`
 
+3. **Memasukan Input**
+
+    Ada dua Metode, yaitu imput manual dan unggah file. Silahkan coba untuk mengimput data-data random secara manual, lalu klik `Prediksi Potensi Dropout`. Tetapi jika anda ingin mencoba untuk mengunggah file, saya sarankan untuk menggunakan file data dari URL berikut: `https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv`
+
 ## Conclusion
 Proyek ini berhasil mengidentifikasi bahwa **performa akademik yang buruk pada semester-semester awal (semester 1 dan 2) merupakan indikator kritis dan akar permasalahan utama yang mengarah pada risiko *dropout* mahasiswa** di Jaya Jaya Institut. Model klasifikasi XGBoost yang dikembangkan dan mendapatkan akurasi sebesar (0.7401), precision sebesar (0.7247), recall sebesar (0.7401), dan f1-score sebesar (0.7306) model ini sudah mampu mendeteksi tanda-tanda peringatan dini ini.
 
